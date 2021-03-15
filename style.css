@@ -1,0 +1,198 @@
+.inputWithIcon input[type=search]{
+  padding-left: 40px;  
+  
+}
+
+.inputWithIcon{
+    position: fixed;
+   top: 2em;
+   right: 0em;
+   bottom: 0em;
+   left: 105em;
+
+
+}
+
+.inputWithIcon i{
+    position: absolute;
+    left: 185px ;
+    top: -7px;
+    padding: 9px 8px;
+
+
+}
+
+#kids-icon {
+  z-index: 2;
+  width: 2em;
+
+  top: 0em;
+  right: 0px;
+  bottom: 0px;
+  left: 50em;
+}
+
+#title-image {
+  background-position: center;
+ 
+  background-color: black;
+  
+}
+
+#main-nav {
+  background-color: black;
+  position: absolute;
+  
+}
+
+.main-nav-table {
+  display: table;
+  margin: 0;
+}
+
+ul#soical-icons {
+  text-decoration: none;
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+  position: fixed;
+}
+
+ul#soical-icons li{
+  display: inline;
+  padding: .4em;
+  margin-top: 5em;
+ 
+ }
+
+/* ul#social-icons li {
+  display: inline;
+} */
+
+.sw-image {
+  position: fixed;
+  top: 10px;
+  right: 0px;
+  bottom: 0px;
+  left: 50em;
+
+}
+
+#second-nav {
+  background-color: black;
+  position: fixed;
+  display: flex;
+ 
+  justify-content: center;
+  color: lightgray;
+  top: 10em;
+  right: 0px;
+  bottom: 0px;
+  left: 0em;
+  margin: 0px;
+  height: 3em;
+  text-decoration: none;
+  list-style: none;
+  border-top: 1px solid gray;
+  top: em;
+  right: -10;
+  bottom: 0;
+  left: -10px;
+
+ 
+}
+
+.table {
+  display: table;
+ margin: 0px;
+  top: 20em;
+  right: -10;
+  bottom: 0;
+  left: -10px;
+ 
+  
+  
+}
+
+ul#nav-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 0px;
+ 
+ 
+
+}
+
+ul#nav-list li {
+  display: inline; 
+padding-right: 2.5em;
+padding-left: 2.5em;
+border-left: 1px solid lightgray;
+font-size: 1.1em;
+} 
+
+
+#second-nav li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+.second-nav-links li a {
+  display: flex;
+  
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+body {
+  background-color: black;
+ 
+ margin-top: 2em; 
+}
+
+#main-img {
+  position: fixed;
+  top: 13em;
+  right: -10;
+  bottom: 0;
+  left: -10px;
+  height: 100vh;
+  
+  margin: 0em;
+}
+
+#main-img-div {
+  margin: 0px;z-index: 1;
+
+}
+
+#main-caption {
+  z-index: 2;
+  top: 12em;
+  right: -10;
+  bottom: 0;
+  left: -10px;
+}
+
+#second-image {
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/thr-singlehero-a-desktop_5a88bd30.png?region=0,0,1200,510);
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+
+
+
+
+
