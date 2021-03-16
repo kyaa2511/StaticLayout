@@ -22,15 +22,25 @@
 
 }
 
-#kids-icon {
-  z-index: 2;
-  width: 2em;
-
-  top: 0em;
+#kids-icon li {
+  /* z-index: 50; */
+  
+  background-color:gray;
+  position: absolute;
+  top: -4em;
   right: 0px;
   bottom: 0px;
-  left: 50em;
+  left: 13em; 
+  height: 1em;
+  width: 2em;
+  border-radius: 10px;
+ 
+ 
+  
 }
+
+
+
 
 #title-image {
   background-position: center;
@@ -62,12 +72,11 @@ ul#soical-icons li{
   display: inline;
   padding: .4em;
   margin-top: 5em;
+  
  
  }
 
-/* ul#social-icons li {
-  display: inline;
-} */
+
 
 .sw-image {
   position: fixed;
@@ -159,38 +168,110 @@ body {
 }
 
 #main-img {
-  position: fixed;
-  top: 13em;
+  /* position: fixed; */
+  /* top: 13em; */
+   /* right: -10;  */
+  /* bottom: 0; */
+  /* left: -10px; */
+  /* height: 100vh; */
+  margin-top: 155px;
+  position:relative;
+  top: 2em;
   right: -10;
   bottom: 0;
   left: -10px;
-  height: 100vh;
+  height: 51em;
   
-  margin: 0em;
+  
+  /* margin: 0em; */
+} */
+
+.main-img-div {
+  
+  margin: 0px;
+  width: 100%;
+
 }
-
-#main-img-div {
-  margin: 0px;z-index: 1;
-
+.mainText{
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
 }
 
 #main-caption {
-  z-index: 2;
+  z-index: 100;
   top: 12em;
   right: -10;
   bottom: 0;
   left: -10px;
 }
 
-#second-image {
-  background-image: url(https://lumiere-a.akamaihd.net/v1/images/thr-singlehero-a-desktop_5a88bd30.png?region=0,0,1200,510);
-  position: relative;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+#second-img  img{
+  margin-left: 22em;
+  height: 30%;
+ 
+ 
 
 }
+
+#readMoreBtn {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1em;
+}
+
+  .miniImgs {
+    border: 1px solid white;
+    padding: 1em;
+    width: 10em;
+    height: 4em;
+    display: inline-block;
+    top: 0em;
+    right: 0em;
+    bottom: 0em;
+    left: 0em;
+    margin-left:10em;
+   
+  }
+
+  #nestedImg {
+    position: relative;
+    bottom: 20em;
+    left: 18em;
+  }
+
+  
+  #nestedTitle {
+  position: absolute;
+  bottom: -3em;
+  left: 27em;
+  color: white;
+  }
+
+  #exploreBtn {
+    position: relative;
+    bottom: -7em;
+    left: -30em;
+    background-color: gold;
+    border: none;
+    border-radius: 5px;
+    
+    
+  }
+  
+  #exploreBtn a {
+    font-size: 1.7em;
+    padding: 10px;
+       color: black; 
+  }
+
 
 
 
