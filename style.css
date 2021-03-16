@@ -4,7 +4,7 @@
 }
 
 .inputWithIcon{
-    position: fixed;
+    position: absolute;
    top: 2em;
    right: 0em;
    bottom: 0em;
@@ -44,6 +44,8 @@
 
 #title-image {
   background-position: center;
+  position: relative;
+  margin-top: -1.5em;
  
   background-color: black;
   
@@ -58,6 +60,7 @@
 .main-nav-table {
   display: table;
   margin: 0;
+  position: absolute;
 }
 
 ul#soical-icons {
@@ -65,7 +68,7 @@ ul#soical-icons {
   min-width: 696px;
   list-style: none;
   padding-top: 20px;
-  position: fixed;
+  position: absolute;
 }
 
 ul#soical-icons li{
@@ -89,7 +92,7 @@ ul#soical-icons li{
 
 #second-nav {
   background-color: black;
-  position: fixed;
+  position: absolute;
   display: flex;
  
   justify-content: center;
@@ -190,6 +193,7 @@ body {
   
   margin: 0px;
   width: 100%;
+  position: fixed;
 
 }
 .mainText{
@@ -271,6 +275,49 @@ body {
     padding: 10px;
        color: black; 
   }
+
+  #containerBkgrd {
+    margin-top: -12.5em;
+    display: inline-block;
+    
+  }
+  #containerBkgrd img {
+    width: 75em;
+    margin-left: 22em;
+  }
+
+
+  
+   #contentImg-1 img {
+   position: absolute;
+   display: inline;
+   z-index: 150;
+    width: 12em;
+    top: 100em;
+    right: 0em;
+    bottom: 0em;
+    left: 10em;
+
+      
+  }
+
+  #contentImg-2 img {
+   
+    width: 12em;
+    position: absolute;
+  display: inline;
+  z-index: 150;
+   width: 12em;
+   top: 100em;
+   right: 0em;
+   bottom: 0em;
+   left: 40em;  
+  }
+  
+  
+  
+ 
+  
 
 
 
